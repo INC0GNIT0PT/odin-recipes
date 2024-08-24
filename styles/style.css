@@ -1,4 +1,10 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
 body{  
     margin: 0 auto;
     max-width: 750px;
@@ -19,7 +25,6 @@ main{
 li{
     text-align: left;
     margin: 15px;
-    
 }
 
 .list-style-none{
@@ -31,61 +36,162 @@ li{
     text-align:left;
 }
 
+.list-style-none li a{
+    font-size: 20px;
+}
+
 h1,
 h1 a{
-    height: 40px;;
-    padding: auto;
+    height: 49px;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 a{
     text-align: center;
     text-decoration: none;
     color: rgb(30 64 175);
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 900;
     overflow: auto;
 }
 
-p{
-    text-align: left;
-    margin:0 5%;
+h5{
+    font-size: 16px;
+    margin: 10px 0;
 }
 
-
 /*Class*/
+.to-center{
+    width: 235px;
+    margin: 0 auto;
+}
+
 .img-logo{
     width: 35px;
     height: 35px;
-    margin: auto;
+    margin-top: 2px;
 }
 
+.sub-title{
+    /* padding-left: 15px; */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+    
 .img-recipe{
     width: 250px;
     height: auto;
-    margin: 2.5% 30%;
+    display: inline-block;
+    vertical-align: top;
 }
 
+.description{
+    margin-left: 10px;
+    display:inline-block;
+    width: 440px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+.description h3{
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    margin: 15px 0;
+}
+
+.steps{
+    margin: 15px 0;
+}
+
+/* main page container*/ 
 .container{
     max-width: 640px;
-    margin: 0 auto 5% auto;
-    padding: 5px 0;
-    background-color: rgb(243 244 246);
+    margin: 0 auto;
     border-radius: 5px;
-    box-shadow: -5px 5px 10px rgba(128, 128, 128, 0.801);    
 }
+
+
+/* Carne a Valenciana */
+.desc-vale{
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+/* Pasta Carbonara */
+.desc-carbo{
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/* Pasta Bolognese */
+.desc-bolo{
+    line-height: 18px;
+    letter-spacing: normal;
+}
+
+/* Francesinha */
+.francesinha{
+    width: auto;
+    height: 230px;
+}
+
+.desc-fran {
+    width: 540px;
+    letter-spacing: 1.5px;
+}
+
+.for-the-sauce{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+
+.for-francesinha{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+
+.inline-block h3{
+    margin-bottom: 10px;
+}
+
 
 .francesinha-img{
-    max-width: 500px;
+    width: 280px;
     height: auto;
-    margin: 2.5% 15%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
 }
-/*
-cinzento par div
-background-color: rgb(243 244 246/var(--tw-bg-opacity));
 
-*/
+.inline-block p{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-bottom: 10px;
+}
 
 
+/*Lasagna*/
+
+.divide{
+    display: inline-block;
+    width: 350px;
+}
 
 
+/* Rojões */
+
+.desc-rojoes{
+    letter-spacing: normal;
+}
+
+/* Belouras */
+.desc-bele{
+    line-height: normal;
+    letter-spacing: normal;
+}
